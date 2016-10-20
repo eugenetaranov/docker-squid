@@ -1,5 +1,7 @@
 # docker-squid
 
+## Manual build
+
 build the container
 
 ```bash
@@ -17,6 +19,8 @@ run the container
 ```bash
 docker run -d -p 3128:3128 -v $(pwd)/passwd:/etc/squid/passwd docker-squid:latest
 ```
+
+## Prebuilt from Dockerhub
 
 pull from dockerhub 
 
